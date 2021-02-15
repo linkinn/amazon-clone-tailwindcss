@@ -26,8 +26,16 @@
     @apply text-orange-650 border-orange-650;
 }
 
+.btn-amazon-prime {
+    @apply text-sm bg-yellow-350 border border-yellow-700 rounded px-3 py-3 block items-center w-full text-center;
+}
+
 @screen md {
     .address-container {
-        @apply py-0
+        @apply py-0;
+    }
+
+    .btn-amazon-prime {
+        @apply text-xs py-0 ml-10 h-12 h-8 flex w-auto;
     }
 }
