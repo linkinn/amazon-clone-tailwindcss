@@ -26,6 +26,10 @@
     @apply text-orange-650 border-orange-650;
 }
 
+.item-footer-inf {
+    @apply hidden text-gray-600 mb-10;
+}
+
 .btn-amazon-prime {
     @apply text-sm bg-yellow-350 border border-yellow-700 rounded px-3 py-3 block items-center w-full text-center;
 }
@@ -37,5 +41,9 @@
 
     .btn-amazon-prime {
         @apply text-xs py-0 ml-10 h-12 h-8 flex w-auto;
+    }
+
+    .item-footer-inf {
+        @apply block;
     }
 }
